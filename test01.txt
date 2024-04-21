@@ -1,0 +1,22 @@
+If then else is a C++ construct.
+The actions of the file reader threads should be defined in one function,
+such that parameters passed to it allow it to identify itself, the
+file it reads, and what it should do. Its actions are fairly simple:
+read through an entire file of text looking for a particular word
+and counting occurrences of that word. The word should be treated as
+case-insensitive. (For example, "The" = "the" = "thE" etc.)
+
+This one should be even more straightforward, as its primary purpose in
+life is for you to demonstrate correct usage of a condition wait. This
+thread simply executes a wait on the condition variable so that it sleeps
+until one of the other two threads set the final count (or the boolean
+variable indicating the final count has been set). When this thread is
+awakened by the condition signal, it prints out the name of the file
+containing the higher count, and what that count was.
+
+Note that the information necessary for this thread to print these
+values can easily be stored in some global variables that are protected
+by the mutext locking and unlocking, etc. I suggest that this includes
+the previously mentioned global count variable, as well as some kind of
+global file name variable.
+

@@ -1,0 +1,16 @@
+CC = g++
+EXE = lab06 lab06b
+LIBS = -lpthread
+
+all:    $(EXE)
+
+lab06:  lab06.cpp
+	$(CC) $(LIBS) -o lab06 lab06.cpp 
+
+lab06b:  lab06b.cpp
+	$(CC) $(LIBS) -o lab06b lab06b.cpp 
+
+clean:
+	rm -rf $(EXE)
+	rm -rf a.out
+

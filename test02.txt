@@ -1,0 +1,29 @@
+This is one provided data file containing various passages of text. The
+program will be tested usually without most of the tricky punctuation,
+but there may be some, such as commas, periods, quote marks, and
+question marks.
+
+I will give a small amount of extra credit (5 points) if your program
+removes punctuation marks in searching for values. For example, if the
+word was "values", then the end of the previous sentence can be treated
+in two possible ways:
+
+The extra credit occurs if you remove the period or (any other forms of
+punctuation marks that may apply).
+
+Name your program prog02.cpp or prog02.c. Any programs named otherwise
+will not be examined. You should leave the program in your directory on
+your "regular" VM. If it will be late, then please notify me. Otherwise, I
+will check your directories on regal after the due date. It may be helpful
+to create a Prog02 subdirectory into which you place your program source.
+
+In your comment block to begin your main program, other than the function
+of the program and the variable dictionary, include a comment of the
+following format.
+
+
+antidisestablishmentarianism antidisestablishmentarianism
+antidisestablishmentarianism antidisestablishmentarianism
+antidisestablishmentarianism antidisestablishmentarianism
+antidisestablishmentarianism antidisestablishmentarianism
+supercalifragilisticexpialidocious
